@@ -11,3 +11,9 @@ else:
     print('Student not found in the dictionary.')
 If the user types a name that isn't stored in the dictionary, the else block triggers, notifying the user that the student is not in the database.
 **Description of Second task(2.py)**
+ numbers = list(range(1, 11))
+ It generates a list named numbers containing integers from 1 to 10 using range(1, 11).
+ first_five = numbers[:5]
+ It uses numbers[:5] to create a new list, first_five, containing the first five elements [1, 2, 3, 4, 5].
+ reversed_list = first_five[::-1]
+  It uses the step-based slice [::-1] to create reversed_list, which flips the order of those first five elements to [5,  4, 3, 2, 1].
